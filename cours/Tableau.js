@@ -13,4 +13,4 @@ let monTableau2DN = [
     ['Mark', 'Jeff', 'Bill'],
     ['Zuckerberg', 'Bezos', 'Gates']
 ];
-console.log(monTableau2DN)
+console.log(monTableau2DN[0][monTableau2DN.length - 1])
