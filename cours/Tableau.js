@@ -67,3 +67,24 @@ delete(monTableauAssociatif.poste);
 ///
 let monTableauN = ['un', 'deux', 'trois', 'quatre'];
 console.log(monTableau.indexOf('deux')); // retourne 1
+
+
+
+// function splice for cred
+let monTableauAZ = ['un', 'deux', 'trois', 'quatre'];
+monTableauAZ.splice(1, 0, 'random', 'pie');
+// console.log(monTableau);
+
+let monTableau2D6 = [
+    ['Mark', 'Jeff', 'Bill'],
+    ['Zuckerberg', 'Bezos', 'Gates']
+];
+monTableau2D6.splice(2, 0, ['30', '45', '70']);
+console.log(monTableau2D6);
+
+let monTableauAssociatif5 = {
+    'prenom' : 'Mark',
+    'nom'    : 'Zuckerberg',
+    'poste'  : 'PDG de Facebook'
+};
+// console.log(monTableauAssociatif);
