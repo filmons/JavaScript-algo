@@ -90,8 +90,3 @@ let monTableauAssociatif5 = {
 // console.log(monTableauAssociatif);
 
 
-let panier = ['fraise', 'banane', 'poire'];
-
-for (const fruit in panier) {
-    console.log(panier[fruit]);
-}
