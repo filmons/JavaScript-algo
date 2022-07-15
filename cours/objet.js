@@ -6,6 +6,7 @@ let chien = {
     // }
     aboyer: () => console.log('Ouaf ouaf')
 }
+// une function dans un obejet est une methode
 
 chien.aboyer();
 
